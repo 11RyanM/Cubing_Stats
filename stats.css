@@ -10,7 +10,7 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgb(27, 27, 34);
 
 }
@@ -18,10 +18,16 @@ body {
 header {
     
     display: flex;
-    
     justify-content: space-between;
     align-items: center;
     
+    
+
+}
+@media (max-width:390px){
+header{
+    width: 1000px;
+}
     
 
 }
@@ -51,6 +57,7 @@ header {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin: 20px;
+    
 
 }
 
@@ -194,7 +201,7 @@ header {
     color: var(--font-color);
     padding: 10px 10px;
     margin-right: 20px;
-    border:none;
+    border:1px solid white;
     font-size: 25px;
     font-weight: 600;
     cursor: pointer;
