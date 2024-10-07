@@ -28,6 +28,7 @@ header {
 
 .logo {
     margin: 20px;
+    cursor: pointer;
 }
 
 
@@ -213,7 +214,7 @@ header {
 .dropdown .dropdown-content{
     display: none;
     position: absolute;
-    min-width: 146.72px;
+    min-width: 148.72px;
     background-color: hsl(0, 0%, 95%);
     box-shadow: 2px 2px 5px hsla(0, 0%, 100%, 0.803);
 
